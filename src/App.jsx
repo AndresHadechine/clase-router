@@ -4,6 +4,7 @@ import { Home } from './routes/Home';
 import { About } from './routes/About';
 import { Contact } from './routes/Contact';
 import { Error } from './routes/Error';
+import { Hola } from './routes/Hola';
 
 function App() {
 
@@ -21,18 +22,18 @@ function App() {
     },
     {
       path: '/contacts',
-      element: <Contact/>
+      element: <Contact />
     },
     {
       path: '/hola',
-      element: <h1>Hola soy un nuevo path</h1>
+      element: <Hola />
     }
   ]);
 
 
   return (
     <>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </>
   )
 }
