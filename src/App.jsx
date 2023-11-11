@@ -7,7 +7,7 @@ import { Error } from './routes/Error';
 
 function App() {
 
-  
+
   const router = createHashRouter([
     {
       path: '/',
@@ -22,6 +22,10 @@ function App() {
     {
       path: '/contacts',
       element: <Contact/>
+    },
+    {
+      path: '/hola',
+      element: <h1>Hola soy un nuevo path</h1>
     }
   ]);
 
