@@ -7,6 +7,7 @@ import { Error } from './routes/Error';
 
 function App() {
 
+  
   const router = createHashRouter([
     {
       path: '/',
